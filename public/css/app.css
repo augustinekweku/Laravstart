@@ -13106,7 +13106,27 @@ a.text-muted:hover {
 
 .elevation-5 {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-}/*!
+}.text-blue {
+  color: #3490dc;
+}
+
+.text-red {
+  color: #e3342f;
+}
+
+.text-green {
+  color: #38c172;
+}
+
+.text-yellow {
+  color: #ffed4a;
+}
+
+.text-orange {
+  color: #f6993f;
+}
+
+/*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
@@ -29577,5 +29597,33 @@ readers do not read off random characters that represent icons */
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
+}
+
+.router-link-exact-active {
+  background-color: #007bff;
+  color: white !important;
+}
+
+@media print {
+  .nav.nav-tabs li:not(.active) {
+    display: none;
+  }
+
+  .invoice {
+    padding: 10px 20px;
+  }
+
+  .invoice {
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .table-responsive table {
+    background-color: transparent !important;
+  }
+}
+
+@page {
+  margin: 0;
 }
 
